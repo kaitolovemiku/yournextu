@@ -276,3 +276,58 @@
     transform: rotate(0deg);
   }
 }
+
+.section1 {
+  width: 100%;
+  padding: 100px;
+}
+
+.section1 > p {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 200;
+  line-height: 1.2;
+  position: absolute;
+}
+
+.section1 > div > h1 {
+  font-weight: 800;
+  font-size: 9rem;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  color: white;
+  text-shadow: 0px 5px 30px 0px rgb(0 0 0);
+}
+
+.section1 > div > h2 {
+  font-weight: 400;
+  font-size: 7.5rem;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  color: white;
+  text-shadow: 0px 5px 30px 0px rgb(0 0 0);
+}
+
+.section1 > div > h3 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  padding: 0px 0px;
+  margin: 0px 215px;
+  text-align: left;
+  color: white;
+  text-shadow: 0px 5px 30px 0px rgb(0 0 0);
+}
+
+.mainText {
+  text-align: center;
+  line-height:'small';
+  text-shadow: 0 0px 20px rgba(0, 0, 0, 0.3);
+  z-index: 99;
+  margin-top: -400px;
+}
+
+.bannerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
